@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px 40px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background: #0000008f;
+  position:absolute;
+  z-index: 999;
+  width:100%;
+  box-sizing: border-box;
+}
+.navbar a {
+  color:white;
+  font-weight:bold;
+  transition: .3s;
+}
+
+a.active {
+  color:#d65454;
+}
+a:hover {
+  color: #d65454
+}
+
+
+.navbar h3 {
+  color:white;
+}
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 9px;
+    color:white;
+}
+
+.navbar ul {
+  margin:0px;
+}

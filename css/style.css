@@ -1,0 +1,105 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400,600,700,700|Poppins:700');
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url("components/card.css");
+@import url("components/hero.css");
+@import url("components/container.css");
+@import url("components/buttons.css");
+@import url("components/navbar.css");
+@import url("components/quote-banner.css");
+@import url("components/footer.css");
+@import url("components/reset.css");
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  color:#2e2e2e;
+  font-size:15px;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+  color:#2e2e2e;
+  margin:20px 0px;
+}
+
+h1 {
+  font-size:48px;
+}
+
+a {
+  text-decoration: none;
+}
+p {
+  line-height:25px;
+}
+
+h2 {
+  font-size:30px;
+}
+
+
+/* Custom design below! */
+span.ii {
+  font-style:italic;
+  font-size:20px;
+}
+
+
+.intro {
+  text-align:center;
+  margin:40px 0px;
+}
+
+.intro > p {
+  max-width:700px;
+  margin:0 auto;
+}
+
+.intro span {
+  color:#d65454;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin:40px 0px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 100%;
+    padding:20px;
+  }
+  .row {
+    display:inherit;
+  }
+  .card-trip {
+    width:80%;
+    margin: 20px auto;
+
+  }
+  .navbar ul {
+    display:none;
+  }
+  .navbar {
+    width:100%;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+
+  }
+}
